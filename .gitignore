@@ -47,6 +47,8 @@ outputs/*
 !outputs/**/
 !outputs/**/*.md
 !outputs/**/*.gitkeep
+!outputs/generated_midis/*.mid
+!outputs/generated_midis/*.midi
 
 # =========================
 # Jupyter
