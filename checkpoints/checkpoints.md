@@ -1,0 +1,1 @@
+[Download checkpoints](https://drive.google.com/drive/folders/1eD0f69vHfeHmccnIvvRM1nBFanAKN01M?usp=sharing "Open Google Drive folder")
