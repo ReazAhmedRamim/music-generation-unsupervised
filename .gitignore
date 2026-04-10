@@ -14,24 +14,39 @@ venv/
 .env.*
 
 # =========================
-# Data (VERY IMPORTANT)
+# Data (keep structure only)
 # =========================
-data/raw_midi/
-data/processed/
-data/train_test_split/
+data/raw_midi/*
+data/processed/*
+data/train_test_split/*
+
+# allow placeholders (.md or .gitkeep)
+!data/raw_midi/**/
+!data/raw_midi/**/*.md
+!data/raw_midi/**/*.gitkeep
+
+!data/processed/
+!data/processed/*.md
+!data/processed/.gitkeep
+
+!data/train_test_split/
+!data/train_test_split/*.md
+!data/train_test_split/.gitkeep
 
 # =========================
 # Model Checkpoints
 # =========================
-checkpoints/*.pt
-checkpoints/*.pth
+checkpoints/*
+!checkpoints/*.md
+!checkpoints/.gitkeep
 
 # =========================
 # Outputs
 # =========================
-outputs/generated_midis/
-outputs/plots/
-outputs/survey_results/
+outputs/*
+!outputs/**/
+!outputs/**/*.md
+!outputs/**/*.gitkeep
 
 # =========================
 # Jupyter

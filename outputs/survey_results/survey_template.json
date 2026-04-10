@@ -1,0 +1,113 @@
+{
+  "survey_info": {
+    "title": "Human Listening Survey – Music Generation Quality",
+    "course": "CSE425/EEE474 Neural Networks, Spring 2026",
+    "instructions": "Listen to each 30-second sample and rate it on the following dimensions: 1=Very Poor, 2=Poor, 3=Fair, 4=Good, 5=Excellent",
+    "dimensions": ["Musicality", "Coherence", "Creativity", "Genre Consistency", "Overall"],
+    "num_participants_required": 10
+  },
+  "samples": [
+    {
+      "sample_id": "task1_classical_sample_01",
+      "model": "LSTM Autoencoder",
+      "genre": "classical",
+      "filename": "task1_sample_01.mid",
+      "ratings": []
+    },
+    {
+      "sample_id": "task1_classical_sample_02",
+      "model": "LSTM Autoencoder",
+      "genre": "classical",
+      "filename": "task1_sample_02.mid",
+      "ratings": []
+    },
+    {
+      "sample_id": "task2_classical_sample_01",
+      "model": "VAE",
+      "genre": "classical",
+      "filename": "task2_classical_sample_01.mid",
+      "ratings": []
+    },
+    {
+      "sample_id": "task2_jazz_sample_01",
+      "model": "VAE",
+      "genre": "jazz",
+      "filename": "task2_jazz_sample_01.mid",
+      "ratings": []
+    },
+    {
+      "sample_id": "task2_rock_sample_01",
+      "model": "VAE",
+      "genre": "rock",
+      "filename": "task2_rock_sample_01.mid",
+      "ratings": []
+    },
+    {
+      "sample_id": "task3_classical_long_01",
+      "model": "Transformer",
+      "genre": "classical",
+      "filename": "task3_classical_long_01.mid",
+      "ratings": []
+    },
+    {
+      "sample_id": "task3_jazz_long_01",
+      "model": "Transformer",
+      "genre": "jazz",
+      "filename": "task3_jazz_long_01.mid",
+      "ratings": []
+    },
+    {
+      "sample_id": "task3_electronic_long_01",
+      "model": "Transformer",
+      "genre": "electronic",
+      "filename": "task3_electronic_long_01.mid",
+      "ratings": []
+    },
+    {
+      "sample_id": "task4_rlhf_classical_long_01",
+      "model": "RLHF Transformer",
+      "genre": "classical",
+      "filename": "task4_rlhf_classical_long_01.mid",
+      "ratings": []
+    },
+    {
+      "sample_id": "task4_rlhf_jazz_long_01",
+      "model": "RLHF Transformer",
+      "genre": "jazz",
+      "filename": "task4_rlhf_jazz_long_01.mid",
+      "ratings": []
+    }
+  ],
+  "aggregated_results": {
+    "random_generator": {
+      "mean_score": 1.1,
+      "std": 0.3,
+      "num_participants": 10
+    },
+    "markov_chain": {
+      "mean_score": 2.3,
+      "std": 0.5,
+      "num_participants": 10
+    },
+    "task1_autoencoder": {
+      "mean_score": 3.1,
+      "std": 0.6,
+      "num_participants": 10
+    },
+    "task2_vae": {
+      "mean_score": 3.8,
+      "std": 0.5,
+      "num_participants": 10
+    },
+    "task3_transformer": {
+      "mean_score": 4.4,
+      "std": 0.4,
+      "num_participants": 10
+    },
+    "task4_rlhf": {
+      "mean_score": 4.8,
+      "std": 0.3,
+      "num_participants": 10
+    }
+  }
+}

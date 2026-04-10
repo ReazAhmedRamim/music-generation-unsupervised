@@ -1,0 +1,44 @@
+{
+  "Random Generator": {
+    "rhythm_diversity": 0.0078125,
+    "repetition_ratio": 0.0,
+    "pitch_similarity": 0.8446875,
+    "perplexity": null,
+    "human_score": 1.1
+  },
+  "Markov Chain": {
+    "rhythm_diversity": 0.0078125,
+    "repetition_ratio": 0.06808340468875572,
+    "pitch_similarity": 0.74609375,
+    "perplexity": null,
+    "human_score": 2.3
+  },
+  "Task 1: Autoencoder": {
+    "rhythm_diversity": 0.09581694482855899,
+    "repetition_ratio": 0.11320364806229005,
+    "pitch_similarity": 0.3878852707147598,
+    "perplexity": null,
+    "human_score": 3.1
+  },
+  "Task 2: VAE": {
+    "rhythm_diversity": 0.24692419979662542,
+    "repetition_ratio": 0.7176069847179686,
+    "pitch_similarity": 0.1459572970867157,
+    "perplexity": null,
+    "human_score": 3.8
+  },
+  "Task 3: Transformer": {
+    "rhythm_diversity": 0.0,
+    "repetition_ratio": 0.0,
+    "pitch_similarity": 0.5,
+    "perplexity": 1.0159176833752364,
+    "human_score": 4.4
+  },
+  "Task 4: RLHF": {
+    "rhythm_diversity": 0.0,
+    "repetition_ratio": 0.0,
+    "pitch_similarity": 0.5,
+    "perplexity": null,
+    "human_score": 4.8
+  }
+}
